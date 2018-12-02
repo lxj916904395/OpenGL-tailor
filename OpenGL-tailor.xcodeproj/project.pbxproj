@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1AD3AE21B3FAB8006413DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AD3AD21B3FAB8006413DC /* AppDelegate.m */; };
+		CD1AD3B121B3FAB8006413DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AD3B021B3FAB8006413DC /* ViewController.m */; };
+		CD1AD3B321B3FAC0006413DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1AD3B221B3FAC0006413DC /* Assets.xcassets */; };
+		CD1AD3B621B3FAC0006413DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1AD3B421B3FAC0006413DC /* Main.storyboard */; };
+		CD1AD3B921B3FAC0006413DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AD3B821B3FAC0006413DC /* main.m */; };
+		CD1AD3C421B3FAC0006413DC /* OpenGL_tailorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AD3C321B3FAC0006413DC /* OpenGL_tailorTests.m */; };
+		CD1AD3CF21B3FAC0006413DC /* OpenGL_tailorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1AD3CE21B3FAC0006413DC /* OpenGL_tailorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1AD3C021B3FAC0006413DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1AD3A121B3FAB8006413DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1AD3A821B3FAB8006413DC;
+			remoteInfo = "OpenGL-tailor";
+		};
+		CD1AD3CB21B3FAC0006413DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1AD3A121B3FAB8006413DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1AD3A821B3FAB8006413DC;
+			remoteInfo = "OpenGL-tailor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1AD3A921B3FAB8006413DC /* OpenGL-tailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-tailor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1AD3AC21B3FAB8006413DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1AD3AD21B3FAB8006413DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1AD3AF21B3FAB8006413DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1AD3B021B3FAB8006413DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1AD3B221B3FAC0006413DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1AD3B521B3FAC0006413DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1AD3B721B3FAC0006413DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1AD3B821B3FAC0006413DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1AD3BA21B3FAC0006413DC /* OpenGL_tailor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL_tailor.entitlements; sourceTree = "<group>"; };
+		CD1AD3BF21B3FAC0006413DC /* OpenGL-tailorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-tailorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1AD3C321B3FAC0006413DC /* OpenGL_tailorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_tailorTests.m; sourceTree = "<group>"; };
+		CD1AD3C521B3FAC0006413DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1AD3CA21B3FAC0006413DC /* OpenGL-tailorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-tailorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1AD3CE21B3FAC0006413DC /* OpenGL_tailorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_tailorUITests.m; sourceTree = "<group>"; };
+		CD1AD3D021B3FAC0006413DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1AD3A621B3FAB8006413DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1AD3BC21B3FAC0006413DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1AD3C721B3FAC0006413DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1AD3A021B3FAB8006413DC = {
+			isa = PBXGroup;
+			children = (
+				CD1AD3AB21B3FAB8006413DC /* OpenGL-tailor */,
+				CD1AD3C221B3FAC0006413DC /* OpenGL-tailorTests */,
+				CD1AD3CD21B3FAC0006413DC /* OpenGL-tailorUITests */,
+				CD1AD3AA21B3FAB8006413DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1AD3AA21B3FAB8006413DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1AD3A921B3FAB8006413DC /* OpenGL-tailor.app */,
+				CD1AD3BF21B3FAC0006413DC /* OpenGL-tailorTests.xctest */,
+				CD1AD3CA21B3FAC0006413DC /* OpenGL-tailorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1AD3AB21B3FAB8006413DC /* OpenGL-tailor */ = {
+			isa = PBXGroup;
+			children = (
+				CD1AD3AC21B3FAB8006413DC /* AppDelegate.h */,
+				CD1AD3AD21B3FAB8006413DC /* AppDelegate.m */,
+				CD1AD3AF21B3FAB8006413DC /* ViewController.h */,
+				CD1AD3B021B3FAB8006413DC /* ViewController.m */,
+				CD1AD3B221B3FAC0006413DC /* Assets.xcassets */,
+				CD1AD3B421B3FAC0006413DC /* Main.storyboard */,
+				CD1AD3B721B3FAC0006413DC /* Info.plist */,
+				CD1AD3B821B3FAC0006413DC /* main.m */,
+				CD1AD3BA21B3FAC0006413DC /* OpenGL_tailor.entitlements */,
+			);
+			path = "OpenGL-tailor";
+			sourceTree = "<group>";
+		};
+		CD1AD3C221B3FAC0006413DC /* OpenGL-tailorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1AD3C321B3FAC0006413DC /* OpenGL_tailorTests.m */,
+				CD1AD3C521B3FAC0006413DC /* Info.plist */,
+			);
+			path = "OpenGL-tailorTests";
+			sourceTree = "<group>";
+		};
+		CD1AD3CD21B3FAC0006413DC /* OpenGL-tailorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1AD3CE21B3FAC0006413DC /* OpenGL_tailorUITests.m */,
+				CD1AD3D021B3FAC0006413DC /* Info.plist */,
+			);
+			path = "OpenGL-tailorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1AD3A821B3FAB8006413DC /* OpenGL-tailor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1AD3D321B3FAC0006413DC /* Build configuration list for PBXNativeTarget "OpenGL-tailor" */;
+			buildPhases = (
+				CD1AD3A521B3FAB8006413DC /* Sources */,
+				CD1AD3A621B3FAB8006413DC /* Frameworks */,
+				CD1AD3A721B3FAB8006413DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-tailor";
+			productName = "OpenGL-tailor";
+			productReference = CD1AD3A921B3FAB8006413DC /* OpenGL-tailor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1AD3BE21B3FAC0006413DC /* OpenGL-tailorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1AD3D621B3FAC0006413DC /* Build configuration list for PBXNativeTarget "OpenGL-tailorTests" */;
+			buildPhases = (
+				CD1AD3BB21B3FAC0006413DC /* Sources */,
+				CD1AD3BC21B3FAC0006413DC /* Frameworks */,
+				CD1AD3BD21B3FAC0006413DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1AD3C121B3FAC0006413DC /* PBXTargetDependency */,
+			);
+			name = "OpenGL-tailorTests";
+			productName = "OpenGL-tailorTests";
+			productReference = CD1AD3BF21B3FAC0006413DC /* OpenGL-tailorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD1AD3C921B3FAC0006413DC /* OpenGL-tailorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1AD3D921B3FAC0006413DC /* Build configuration list for PBXNativeTarget "OpenGL-tailorUITests" */;
+			buildPhases = (
+				CD1AD3C621B3FAC0006413DC /* Sources */,
+				CD1AD3C721B3FAC0006413DC /* Frameworks */,
+				CD1AD3C821B3FAC0006413DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1AD3CC21B3FAC0006413DC /* PBXTargetDependency */,
+			);
+			name = "OpenGL-tailorUITests";
+			productName = "OpenGL-tailorUITests";
+			productReference = CD1AD3CA21B3FAC0006413DC /* OpenGL-tailorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1AD3A121B3FAB8006413DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lxj;
+				TargetAttributes = {
+					CD1AD3A821B3FAB8006413DC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CD1AD3BE21B3FAC0006413DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD1AD3A821B3FAB8006413DC;
+					};
+					CD1AD3C921B3FAC0006413DC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD1AD3A821B3FAB8006413DC;
+					};
+				};
+			};
+			buildConfigurationList = CD1AD3A421B3FAB8006413DC /* Build configuration list for PBXProject "OpenGL-tailor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1AD3A021B3FAB8006413DC;
+			productRefGroup = CD1AD3AA21B3FAB8006413DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1AD3A821B3FAB8006413DC /* OpenGL-tailor */,
+				CD1AD3BE21B3FAC0006413DC /* OpenGL-tailorTests */,
+				CD1AD3C921B3FAC0006413DC /* OpenGL-tailorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1AD3A721B3FAB8006413DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1AD3B321B3FAC0006413DC /* Assets.xcassets in Resources */,
+				CD1AD3B621B3FAC0006413DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1AD3BD21B3FAC0006413DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1AD3C821B3FAC0006413DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1AD3A521B3FAB8006413DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1AD3B121B3FAB8006413DC /* ViewController.m in Sources */,
+				CD1AD3B921B3FAC0006413DC /* main.m in Sources */,
+				CD1AD3AE21B3FAB8006413DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1AD3BB21B3FAC0006413DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1AD3C421B3FAC0006413DC /* OpenGL_tailorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1AD3C621B3FAC0006413DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1AD3CF21B3FAC0006413DC /* OpenGL_tailorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1AD3C121B3FAC0006413DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1AD3A821B3FAB8006413DC /* OpenGL-tailor */;
+			targetProxy = CD1AD3C021B3FAC0006413DC /* PBXContainerItemProxy */;
+		};
+		CD1AD3CC21B3FAC0006413DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1AD3A821B3FAB8006413DC /* OpenGL-tailor */;
+			targetProxy = CD1AD3CB21B3FAC0006413DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1AD3B421B3FAC0006413DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1AD3B521B3FAC0006413DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1AD3D121B3FAC0006413DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD1AD3D221B3FAC0006413DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD1AD3D421B3FAC0006413DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-tailor/OpenGL_tailor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-tailor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-tailor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD1AD3D521B3FAC0006413DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-tailor/OpenGL_tailor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-tailor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-tailor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD1AD3D721B3FAC0006413DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-tailorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-tailorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-tailor.app/Contents/MacOS/OpenGL-tailor";
+			};
+			name = Debug;
+		};
+		CD1AD3D821B3FAC0006413DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-tailorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-tailorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-tailor.app/Contents/MacOS/OpenGL-tailor";
+			};
+			name = Release;
+		};
+		CD1AD3DA21B3FAC0006413DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-tailorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-tailorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-tailor";
+			};
+			name = Debug;
+		};
+		CD1AD3DB21B3FAC0006413DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-tailorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lxj.OpenGL-tailorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-tailor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1AD3A421B3FAB8006413DC /* Build configuration list for PBXProject "OpenGL-tailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1AD3D121B3FAC0006413DC /* Debug */,
+				CD1AD3D221B3FAC0006413DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1AD3D321B3FAC0006413DC /* Build configuration list for PBXNativeTarget "OpenGL-tailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1AD3D421B3FAC0006413DC /* Debug */,
+				CD1AD3D521B3FAC0006413DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1AD3D621B3FAC0006413DC /* Build configuration list for PBXNativeTarget "OpenGL-tailorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1AD3D721B3FAC0006413DC /* Debug */,
+				CD1AD3D821B3FAC0006413DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1AD3D921B3FAC0006413DC /* Build configuration list for PBXNativeTarget "OpenGL-tailorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1AD3DA21B3FAC0006413DC /* Debug */,
+				CD1AD3DB21B3FAC0006413DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1AD3A121B3FAB8006413DC /* Project object */;
+}
